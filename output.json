@@ -1,0 +1,56 @@
+{
+    "CHANNEL_ACCESS_TOKEN": "e19M+KBXbJM1NpnDLV8XgoJpzqhKJ6Tpm+J5rHJ0BZHfHIclHEf14W0FuUIZnOQcPNtYVW3IVcRozgeiDw8ukauMn9BwrXEASEBlgsWYkXnoVfW4PNbiwcugiGhyp4uM0ea228ycC1qyehQpuMJXEwdB04t89/1O/w1cDnyilFU=",
+    "CHANNEL_SECRET": "5a5f9b1f59eb26c6ba08c94fd7851ef7",
+    "__ow_headers": {
+        "accept-encoding": "gzip",
+        "cdn-loop": "cloudflare",
+        "cf-connecting-ip": "203.104.156.76",
+        "cf-ipcountry": "JP",
+        "cf-ray": "53dbb6c3c948a5d0-NRT",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "content-type": "application/json",
+        "host": "us-south.functions.cloud.ibm.com",
+        "user-agent": "LINE-Developers/0.1",
+        "x-forwarded-for": "203.104.156.76, 162.158.119.13",
+        "x-forwarded-host": "us-south.functions.cloud.ibm.com",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https",
+        "x-global-k8fdic-transaction-id": "77787552ae56fe2e64856d6fe4835d6a",
+        "x-line-signature": "U9GAb6mazONMsa84p8nh54dhVGiPk20yykWQyip8IbM=",
+        "x-real-ip": "162.158.119.13",
+        "x-request-id": "77787552ae56fe2e64856d6fe4835d6a"
+    },
+    "__ow_method": "post",
+    "__ow_path": "",
+    "events": [
+        {
+            "message": {
+                "id": "100001",
+                "text": "Hello, world",
+                "type": "text"
+            },
+            "replyToken": "00000000000000000000000000000000",
+            "source": {
+                "type": "user",
+                "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+            },
+            "timestamp": 1575105295939,
+            "type": "message"
+        },
+        {
+            "message": {
+                "id": "100002",
+                "packageId": "1",
+                "stickerId": "1",
+                "type": "sticker"
+            },
+            "replyToken": "ffffffffffffffffffffffffffffffff",
+            "source": {
+                "type": "user",
+                "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+            },
+            "timestamp": 1575105295939,
+            "type": "message"
+        }
+    ]
+}

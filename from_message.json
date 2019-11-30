@@ -1,0 +1,43 @@
+{
+    "CHANNEL_ACCESS_TOKEN": "e19M+KBXbJM1NpnDLV8XgoJpzqhKJ6Tpm+J5rHJ0BZHfHIclHEf14W0FuUIZnOQcPNtYVW3IVcRozgeiDw8ukauMn9BwrXEASEBlgsWYkXnoVfW4PNbiwcugiGhyp4uM0ea228ycC1qyehQpuMJXEwdB04t89/1O/w1cDnyilFU=",
+    "CHANNEL_SECRET": "5a5f9b1f59eb26c6ba08c94fd7851ef7",
+    "__ow_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip",
+        "cdn-loop": "cloudflare",
+        "cf-connecting-ip": "147.92.150.196",
+        "cf-ipcountry": "JP",
+        "cf-ray": "53dbc7351bd06edf-NRT",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "content-type": "application/json",
+        "host": "us-south.functions.cloud.ibm.com",
+        "user-agent": "LineBotWebhook/1.0",
+        "x-forwarded-for": "147.92.150.196, 162.158.118.10",
+        "x-forwarded-host": "us-south.functions.cloud.ibm.com",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https",
+        "x-global-k8fdic-transaction-id": "8e302daf2a9037a45ca9bea0f3461b5e",
+        "x-line-signature": "aEru4uXv8dZPZmUxNDR2NMiLSpDDlkdRngZYLYFxlf0=",
+        "x-real-ip": "162.158.118.10",
+        "x-request-id": "8e302daf2a9037a45ca9bea0f3461b5e"
+    },
+    "__ow_method": "post",
+    "__ow_path": "",
+    "destination": "U15705edda57088ac41c54617103c5d2f",
+    "events": [
+        {
+            "message": {
+                "id": "11005837160281",
+                "text": "あああ",
+                "type": "text"
+            },
+            "replyToken": "c2c1ccc9de1a4a3590b87aaa1bdaab72",
+            "source": {
+                "type": "user",
+                "userId": "U4f66bde8b1f17ce2e2ad0ff14f073eb1"
+            },
+            "timestamp": 1575105969375,
+            "type": "message"
+        }
+    ]
+}
