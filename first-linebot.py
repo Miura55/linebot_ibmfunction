@@ -15,15 +15,17 @@ def main(args):
     print(args)
     # account setting
     line_bot_api = LineBotApi(args['CHANNEL_ACCESS_TOKEN'])
-    handler = WebhookHandler(args['CHANNEL_SECRET'])
 
     # make responce
     body = args["events"][0]
     try:
-        line_bot_api.reply_message(
-            body["replyToken"],
-            TextSendMessage(text=body["message"]["text"])
-        )
+        if body["source"]["userId"] == "Udeadbeefdeadbeefdeadbeefdeadbeef":
+            return {"status":200}
+        else:
+            line_bot_api.reply_message(
+                body["replyToken"],
+                TextSendMessage(text=body["message"]["text"])
+            )
     except LineBotApiError as e:
         print(e)
         return {"status":400}
