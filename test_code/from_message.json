@@ -1,6 +1,4 @@
 {
-    "CHANNEL_ACCESS_TOKEN": "e19M+KBXbJM1NpnDLV8XgoJpzqhKJ6Tpm+J5rHJ0BZHfHIclHEf14W0FuUIZnOQcPNtYVW3IVcRozgeiDw8ukauMn9BwrXEASEBlgsWYkXnoVfW4PNbiwcugiGhyp4uM0ea228ycC1qyehQpuMJXEwdB04t89/1O/w1cDnyilFU=",
-    "CHANNEL_SECRET": "5a5f9b1f59eb26c6ba08c94fd7851ef7",
     "__ow_headers": {
         "accept": "*/*",
         "accept-encoding": "gzip",
@@ -34,7 +32,7 @@
             "replyToken": "c2c1ccc9de1a4a3590b87aaa1bdaab72",
             "source": {
                 "type": "user",
-                "userId": "U4f66bde8b1f17ce2e2ad0ff14f073eb1"
+                "userId": "deadbeafdeadbeafdeadbeafdeadbead"
             },
             "timestamp": 1575105969375,
             "type": "message"
