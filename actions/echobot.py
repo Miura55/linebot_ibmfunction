@@ -1,14 +1,7 @@
 # coding: utf-8
-from linebot import (
-    LineBotApi
-)
-from linebot.exceptions import (
-    InvalidSignatureError,
-    LineBotApiError
-)
-from linebot.models import (
-    TextSendMessage,
-)
+from linebot import LineBotApi
+from linebot.exceptions import LineBotApiError
+from linebot.models import TextSendMessage
 
 
 def main(args):
@@ -29,8 +22,6 @@ def main(args):
         print("Got exception from LINE Messaging API: %s\n" % e.message)
         for m in e.error.details:
             print("  %s: %s" % (m.property, m.message))
-        return {"status": 403}
-    except InvalidSignatureError:
         return {"status": 403}
 
     return {"status": 200}
